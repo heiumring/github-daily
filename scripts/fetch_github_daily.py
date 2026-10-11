@@ -177,6 +177,17 @@ STRONG_DESC_WORDS = {
     "vhdl",
     "llc",
     "pfc",
+    "inverter",
+    "bms",
+    "motor-control",
+    "motor-drive",
+    "dc-dc",
+    "power-supply",
+    "microgrid",
+    "mosfet",
+    "wide-bandgap",
+    "device-modeling",
+    "llm",
 }
 
 # 强特征词落到领域。共享词两边都记，贴近度由更具体的命中决定。
@@ -197,6 +208,17 @@ STRONG_WORD_DOMAINS = {
     "vhdl": ["embedded"],
     "llc": ["power_supply"],
     "pfc": ["power_supply"],
+    "inverter": ["power_supply"],
+    "bms": ["power_supply"],
+    "dc-dc": ["power_supply"],
+    "power-supply": ["power_supply"],
+    "microgrid": ["power_supply"],
+    "motor-drive": ["power_supply", "control"],
+    "motor-control": ["control"],
+    "mosfet": ["power_devices"],
+    "wide-bandgap": ["power_devices"],
+    "device-modeling": ["power_devices"],
+    "llm": ["ai"],
 }
 
 
