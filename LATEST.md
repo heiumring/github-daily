@@ -1,32 +1,26 @@
-# GitHub 领域日报 · 2026-11-02
+# GitHub 领域日报 · 2026-11-03
 
-生成时间：2026-11-02 07:32（北京时间）。数据拉取开始于 2026-11-02 07:32:53（北京时间）。
+生成时间：2026-11-03 07:32（北京时间）。数据拉取开始于 2026-11-03 07:32:30（北京时间）。
 
 时间口径：
 
 - **A. 今日热度**：GitHub Trending `since=daily`。页面上的 stars today 就是约 24 小时新增 star，下文「24 小时新增 star」都来自这个字段。
-- **B. 领域新项目**：创建时间不早于 2026-10-03（运行日往前 30 天），且总 star > 2。按总 star 排序。没有 24 小时新增数据。
-- **C. 领域常青**：2026-10-26 及之后有推送、总 star > 3。轮换页 `page = (当年第 306 天 mod 4) + 1 = 3`。按总 star 排序，不是今日新增。
+- **B. 领域新项目**：创建时间不早于 2026-10-04（运行日往前 30 天），且总 star > 2。按总 star 排序。没有 24 小时新增数据。
+- **C. 领域常青**：2026-10-27 及之后有推送、总 star > 3。轮换页 `page = (当年第 307 天 mod 4) + 1 = 4`。按总 star 排序，不是今日新增。
 
 未调用 OSS Insight 的 24 小时热榜接口。
 
 ## 今日速览
 
-1. [beenuar/AiSOC](https://github.com/beenuar/AiSOC) 把安全设备的遥测收成可审计的调查：语言模型代理负责分诊，每一步留记录，动作要人批准才发出去；Trending 上 24 小时新增 star 436，总 star 6193。
-2. [wangzan101/Mika](https://github.com/wangzan101/Mika) 在安卓上说一句话，助手就在一块后台屏里操作 App 和网页，自己的屏幕还能继续用；创建于 2026-10-29，总 star 3794，没有 24 小时新增数据。
-3. [onehumanbeing/esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent) 用一块约 7 美元的 ESP32 让视觉模型操作真 iPhone，眼睛走 AirPlay，手走 USB HID，不用 Mac、开发者账号或越狱；近 30 天新建，总 star 4197，没有 24 小时新增数据。
+1. [wangzan101/Mika](https://github.com/wangzan101/Mika) 在安卓上说一句话，助手就在一块隐藏的后台屏里操作 App 和网页，自己的屏幕还能继续用；创建于 2026-10-29，总 star 5255，没有 24 小时新增数据。
+2. [onehumanbeing/esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent) 用一块 7 美元的 ESP32 让视觉模型操作真 iPhone，眼睛走 AirPlay，手走 USB HID，不用 Mac、开发者账号或越狱；近 30 天新建，总 star 4236，没有 24 小时新增数据。
+3. [ngxson/esp32-usb-to-airprint](https://github.com/ngxson/esp32-usb-to-airprint) 给只能插 USB 的旧打印机加一块 ESP32-S3，让苹果设备和浏览器能无线打印、扫描；创建于 2026-10-27（北京时间），总 star 235，没有 24 小时新增数据。
 
 ## A. 今日热度
 
-Trending 页面解析到 17 条。页面不带 topics，因此只按仓库名和强特征描述归类。按 24 小时新增 star 降序后，命中 1 条。
+Trending 页面解析到 15 条。页面不带 topics，因此只按仓库名和强特征描述归类。按 24 小时新增 star 降序后，命中 0 条。
 
-- [beenuar/AiSOC](https://github.com/beenuar/AiSOC)
-  - 说明：自托管的安全运营台。安全工具的遥测进来以后先归一、关联成事件，再交给语言模型代理调查；代理的推理留档，提议的动作要人点头才会发到外部系统。描述里的 LLM-agent 按词边界计入 llm。
-  - 领域：AI
-  - 总 star：6193
-  - 24 小时新增 star：436
-
-嵌入式、功率器件、电力电子电源、自动控制在这 17 条里没有命中。
+嵌入式、AI、功率器件、电力电子电源、自动控制在这 15 条里没有命中。
 
 ## B. 领域新项目
 
@@ -35,42 +29,42 @@ Trending 页面解析到 17 条。页面不带 topics，因此只按仓库名和
 ### 嵌入式 Embedded
 
 - [onehumanbeing/esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent)
-  - 说明：让视觉模型操作一台真 iPhone，眼睛走 AirPlay，手走 USB HID，中间只加一块约 7 美元的 ESP32，不用 Mac、开发者账号或越狱。
+  - 说明：让视觉模型操作一台真 iPhone，眼睛走 AirPlay，手走 USB HID，中间只加一块 7 美元的 ESP32，不用 Mac、开发者账号或越狱。
   - 领域：嵌入式 Embedded
-  - 总 star：4197
+  - 总 star：4236
 - [agharsallah/esp-labs-web](https://github.com/agharsallah/esp-labs-web)
   - 说明：把 ESP32-S3 实验台收成一个网页，能看实时引脚、跑交互模拟、读 esp-labs 固件和实验记录，界面有 11 种语言。话题含 education，这是实验台应用，不是公开课清单。
   - 领域：嵌入式 Embedded
-  - 总 star：628
-- [Adolanium/hermes-gadget-sdk](https://github.com/Adolanium/hermes-gadget-sdk)
-  - 说明：给 Hermes Agent 做能说话、能打字的外设，带 ESP32 固件、Linux 客户端和桌面模拟器，用来把语音设备接到已有助手上。
-  - 领域：嵌入式 Embedded
-  - 总 star：458
+  - 总 star：635
 - [raullenchai/esp32-thinks](https://github.com/raullenchai/esp32-thinks)
   - 说明：在 ESP32 上做个人语音助手，唤醒词或旋钮都能开口，识别、对话和合成可以混搭任意兼容 OpenAI 的服务，并流式回放。
   - 领域：嵌入式 Embedded
-  - 总 star：260
+  - 总 star：261
 - [Liu-zhongxian/zongzhu-bot](https://github.com/Liu-zhongxian/zongzhu-bot)
   - 说明：在 Waveshare 1.75C 圆屏 ESP32 上做语音终端，接 Grok，屏幕有会眨眼的眼睛、字幕和朗读，仓库同时放固件和后端。
   - 领域：嵌入式 Embedded
-  - 总 star：240
+  - 总 star：245
+- [ngxson/esp32-usb-to-airprint](https://github.com/ngxson/esp32-usb-to-airprint)
+  - 说明：只能插 USB 的打印机，插上一块 ESP32-S3 就能进 Wi-Fi。README 写明 iPhone、iPad 和 Mac 可以用 AirPrint 打印，浏览器里也能扫描，并要求新驱动先在真机上测过。
+  - 领域：嵌入式 Embedded
+  - 总 star：235
 
 ### AI
 
-- [onehumanbeing/esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent) — 见上方「嵌入式 Embedded」完整条目。话题含 llm，此处不展开。领域：AI。总 star：4197。
 - [wangzan101/Mika](https://github.com/wangzan101/Mika)
-  - 说明：安卓上的私人助理。说一句话，它在一块单独的后台屏里打开 App、点按和打字，自己的屏幕还能继续用。
+  - 说明：安卓上的私人助理。说一句话，它在一块隐藏的后台屏里打开 App、点按和打字，自己的屏幕还能继续用。README 的例子是让它在后台打开微信、找到联系人并把消息发出去。
   - 领域：AI
-  - 总 star：3794
+  - 总 star：5255
+- [onehumanbeing/esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent) — 见上方「嵌入式 Embedded」完整条目。话题含 llm，此处不展开。领域：AI。总 star：4236。
 - [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot)
   - 说明：给编程代理补上耳朵，让它能听、能审、也能生成声音，只在 CPU 上跑。
   - 领域：AI
-  - 总 star：3442
+  - 总 star：3553
 - [qybaihe/bla](https://github.com/qybaihe/bla)
   - 说明：给自己要发布的程序加一层防护，让自动做逆向的语言模型代理耗在诱饵和资源上限上，使用者跑起来的行为仍和原来一样。话题 `llm-security` 按词边界计入 llm。
   - 领域：AI
-  - 总 star：1821
-- [raullenchai/esp32-thinks](https://github.com/raullenchai/esp32-thinks) — 见上方「嵌入式 Embedded」完整条目。话题含 llm，此处不展开。领域：AI。总 star：260。
+  - 总 star：1981
+- [raullenchai/esp32-thinks](https://github.com/raullenchai/esp32-thinks) — 见上方「嵌入式 Embedded」完整条目。话题含 llm，此处不展开。领域：AI。总 star：261。
 
 ### 功率器件 Power Devices
 
@@ -87,15 +81,15 @@ Trending 页面解析到 17 条。页面不带 topics，因此只按仓库名和
 - [mozihe/z-localization](https://github.com/mozihe/z-localization)
   - 说明：东北大学 T-DT 实验室开源了 2026 年 RoboMaster 超级对抗赛哨兵的定位。README 写明这是 ROS 2 激光惯性定位栈，能做里程计、点云建图、先验地图定位、回环和重定位，也可接 UWB；示例传感器是 Livox Mid-360。
   - 领域：自动控制 Control
-  - 总 star：116
+  - 总 star：118
 - [ASIG-X/RESPLE2](https://github.com/ASIG-X/RESPLE2)
-  - 说明：用非均匀 B 样条做多传感器里程计，激光惯导、视觉和腿式运动学可以放在一套估计里，还能选带回环后的全局修正，并按实时约束来做。
+  - 说明：用非均匀 B 样条做多传感器里程计。README 写明激光惯导、激光视觉惯导、激光腿式惯导，以及再加上视觉的组合，可以放在一套估计里，还能选带回环后的全局修正，并按实时约束来做。
   - 领域：自动控制 Control
-  - 总 star：38
+  - 总 star：44
 - [prohurtz/BSB-SLAM](https://github.com/prohurtz/BSB-SLAM)
   - 说明：给 Bigscreen Beyond 头显接上 Xvisio XR50 相机，让头显自己做定位，这样不用再摆 Lighthouse 基站；仓库带 SteamVR 驱动和负责安装的桌面程序。
   - 领域：自动控制 Control
-  - 总 star：36
+  - 总 star：37
 - [Samarth030312/arduino-water-level-control-lab](https://github.com/Samarth030312/arduino-water-level-control-lab)
   - 说明：一套水位控制实验：水箱、超声波测距，市电泵走固态继电器，或者直流泵用 MOSFET 开关；控制律有通断、P 和 PI，并带一个按这台水箱和泵标定的 MATLAB 程序。水位控制比一只 MOSFET 开关更贴近本领域。
   - 领域：自动控制 Control
@@ -107,51 +101,48 @@ Trending 页面解析到 17 条。页面不带 topics，因此只按仓库名和
 
 ### 嵌入式 Embedded
 
-- [flipperdevices/flipperzero-firmware](https://github.com/flipperdevices/flipperzero-firmware)
-  - 说明：Flipper Zero 的官方固件源码，话题含 stm32。
+- [francescopace/espectre](https://github.com/francescopace/espectre)
+  - 说明：把一块 ESP32 变成只在本地跑的 Wi-Fi 动作传感器。人走过房间会改变信号怎么传播，它读这些变化来报有没有人动。README 写明不用摄像头、麦克风、可穿戴设备或专用雷达。描述还列出 C++ SDK、ESPHome、Matter 前端和命令行。话题含 embedded；话题里的 `esp-32` 按词边界不等于 esp32，描述里的 ESP32 计入。
   - 领域：嵌入式 Embedded
-  - 总 star：16817
-- [justcallmekoko/ESP32Marauder](https://github.com/justcallmekoko/ESP32Marauder)
-  - 说明：跑在 ESP32 上的一套 Wi-Fi 与蓝牙工具固件，作者写明进攻和防御两类都能用。
+  - 总 star：9728
+- [crosspoint-reader/crosspoint-reader](https://github.com/crosspoint-reader/crosspoint-reader)
+  - 说明：给墨水屏做可刷写的阅读器固件，用来读 EPUB 和 TXT，而不是把格式锁在厂商系统里。README 写明目前跑在 ESP32-C3 的 Xteink X4、X3，以及 ESP32-S3 的 X4 Pro、M5Paper Mono 等机型上。
   - 领域：嵌入式 Embedded
-  - 总 star：12968
-- [makerspet/oomwoo](https://github.com/makerspet/oomwoo) — 见下方「自动控制 Control」完整条目。话题含 esp32，此处不展开。领域：嵌入式 Embedded。总 star：12927。
-- [esphome/esphome](https://github.com/esphome/esphome)
-  - 说明：用配置文件而不是手写固件去控制 ESP32、ESP8266、BK72xx 和 RP2040，再交到家庭自动化系统里远程管。
+  - 总 star：8623
+- [meshtastic/firmware](https://github.com/meshtastic/firmware)
+  - 说明：Meshtastic 的官方固件。没有蜂窝网时，用 LoRa 把文字和位置在节点之间传开。话题含 esp32 与 stm32。
   - 领域：嵌入式 Embedded
-  - 总 star：12001
-- [xinnan-tech/xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server)
-  - 说明：给小智 ESP32 硬件配的后端，用来自己搭设备控制服务；README 写明支持 MQTT+UDP、WebSocket、声纹识别和知识库。话题 `mcp-server` 不是 AI 关键词，不跨到 AI。
+  - 总 star：8516
+- [FastLED/FastLED](https://github.com/FastLED/FastLED)
+  - 说明：用同一套库驱动 Arduino、ESP32 和 Teensy 上的可寻址彩灯，做颜色动画，不必为每种灯珠协议各写一套时序。
   - 领域：嵌入式 Embedded
-  - 总 star：11116
-- [okalachev/flix](https://github.com/okalachev/flix) — 见下方「自动控制 Control」完整条目。话题含 esp32，此处不展开。领域：嵌入式 Embedded。总 star：2426。
+  - 总 star：7523
+- [BruceDevices/firmware](https://github.com/BruceDevices/firmware)
+  - 说明：给 M5Stack Cardputer、Stick、T-Deck 一类 ESP32 掌机准备的固件。README 写明它把安全测试工具收成一套可随身刷写的系统。
+  - 领域：嵌入式 Embedded
+  - 总 star：7137
 - [mkaiser/Sungrow-SHx-Inverter-Modbus-Home-Assistant](https://github.com/mkaiser/Sungrow-SHx-Inverter-Modbus-Home-Assistant) — 见下方「电力电子电源 Power Supply」完整条目。话题含 modbus，此处不展开。领域：嵌入式 Embedded。总 star：709。
+- [davidrapan/ha-solarman](https://github.com/davidrapan/ha-solarman) — 见下方「电力电子电源 Power Supply」完整条目。话题含 modbus，此处不展开。领域：嵌入式 Embedded。总 star：541。
 
 ### AI
 
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
-  - 说明：把 Gemini 放进终端里用的开源代理。
+- [pytorch/pytorch](https://github.com/pytorch/pytorch)
+  - 说明：用 Python 写张量和动态神经网络，并在 GPU 上加速。仓库名 pytorch 计入。
   - 领域：AI
-  - 总 star：108655
-- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
-  - 说明：一组给编程代理的技能，用美术方向、参考图和浏览器检查来避免生成千篇一律的页面。
+  - 总 star：105099
+- [vllm-project/vllm](https://github.com/vllm-project/vllm)
+  - 说明：给大模型做高吞吐、省内存的推理服务。话题含 llm、pytorch 和 transformer。描述里的 LLMs 按词边界不等于 llm，命中来自话题。
   - 领域：AI
-  - 总 star：107746
-- [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-  - 说明：《Build a Large Language Model (From Scratch)》的官方代码，用 PyTorch 从头实现、预训练并微调一个类似 GPT 的模型。这是一本书的配套仓库，不是公开课清单。
+  - 总 star：96163
+- [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
+  - 说明：把任意网页爬成适合语言模型使用的 Markdown，可以自己跑。话题含 llm 与 ai-agents。
   - 领域：AI
-  - 总 star：107650
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
-  - 说明：给代理一条命令，去读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书，不必为这些平台的官方 API 付费。话题 `llm-tools` 按词边界计入 llm。
-  - 领域：AI
-  - 总 star：107593
-- [MRPT/mrpt](https://github.com/MRPT/mrpt) — 见下方「自动控制 Control」完整条目。话题含 computer-vision，此处不展开。领域：AI。总 star：2173。
+  - 总 star：86790
+- [symforce-org/symforce](https://github.com/symforce-org/symforce) — 见下方「自动控制 Control」完整条目。话题含 computer-vision，此处不展开。领域：AI。总 star：1654。
 
 ### 功率器件 Power Devices
 
-本页没有以功率器件为最贴近领域的完整常青仓库。12V 磷酸铁锂备用电源的完整说明写在下方「电力电子电源 Power Supply」。
-
-- [wkcollis1-eng/DIY-LiFePO4-UPS](https://github.com/wkcollis1-eng/DIY-LiFePO4-UPS) — 见下方「电力电子电源 Power Supply」完整条目。话题含 mosfet，此处不展开。领域：功率器件 Power Devices。总 star：15。
+本页没有以功率器件为最贴近领域的完整常青仓库。规则命中的 `Oire/sic` 是图片转换器，与碳化硅器件无关，正文不收。
 
 ### 电力电子电源 Power Supply
 
@@ -159,29 +150,33 @@ Trending 页面解析到 17 条。页面不带 topics，因此只按仓库名和
   - 说明：把阳光电源逆变器接到 Home Assistant，覆盖 SH RT、SHx RS、SH K 和 SxT 几个系列，通信走 Modbus。
   - 领域：电力电子电源 Power Supply
   - 总 star：709
-- [wkcollis1-eng/DIY-LiFePO4-UPS](https://github.com/wkcollis1-eng/DIY-LiFePO4-UPS)
-  - 说明：给 Home Assistant 和网络设备做的 12V 磷酸铁锂备用电源。描述写明 2026-05-06 有过一次完整停电验证：交流断开 217 分钟，送出 4.18 Ah / 53.3 Wh，并在电压悬崖前提前关机。
+- [davidrapan/ha-solarman](https://github.com/davidrapan/ha-solarman)
+  - 说明：把 Solarman 数据采集棒接到 Home Assistant，用来读逆变器。话题含 inverter，并列出 Deye、Sofar、Solis、Sunsynk 等品牌，通信话题含 modbus。
   - 领域：电力电子电源 Power Supply
-  - 总 star：15
+  - 总 star：541
+- [fl4p/batmon-ha](https://github.com/fl4p/batmon-ha)
+  - 说明：在 Home Assistant 里通过蓝牙读 JK、JBD、Daly、ANT、SOK 等电池管理系统。README 写明走主机自己的蓝牙，不另加 ESP32，并能看单体电压和温度。话题 `jikong-bms` 按词边界计入 bms。搜索话题没有 esp32，不跨到嵌入式。
+  - 领域：电力电子电源 Power Supply
+  - 总 star：531
 
 ### 自动控制 Control
 
-- [makerspet/oomwoo](https://github.com/makerspet/oomwoo)
-  - 说明：打算做成能自己 3D 打印、用树莓派和二维激光雷达在本地建图清扫的扫地机，软件走 ROS 2。README 写明现在还不能照着装出实物，今天只能跑仿真。
+- [google-deepmind/mujoco_mpc](https://github.com/google-deepmind/mujoco_mpc)
+  - 说明：在 MuJoCo 里做实时预测控制，用来编写并求解机器人任务。README 写明目前带多组打靶式规划器，含 iLQG、梯度下降，以及不依赖导数的 Predictive Sampling。话题含 mpc 与 motor-control。
   - 领域：自动控制 Control
-  - 总 star：12927
-- [okalachev/flix](https://github.com/okalachev/flix)
-  - 说明：用通用零件和 ESP32 从零做一台四旋翼。README 写明固件是不到两千行的 Arduino 代码，用 MAVLink 经 Wi-Fi 或 ESP-NOW 遥控，并带 Gazebo 仿真；作者给出了实飞视频。飞行控制比「用了哪块芯片」更贴近本领域。
+  - 总 star：1758
+- [symforce-org/symforce](https://github.com/symforce-org/symforce)
+  - 说明：给机器人做快速符号计算和代码生成，用来写状态估计、运动规划和控制，再生成可编译的 C++。话题含 slam。机器人应用比其中一项 computer-vision 话题更贴近本领域。
   - 领域：自动控制 Control
-  - 总 star：2426
-- [MRPT/mrpt](https://github.com/MRPT/mrpt)
-  - 说明：马拉加大学从 2005 年维护至今的移动机器人 C++ 工具箱。README 写明覆盖蒙特卡洛定位、粒子滤波、占据栅格和路径规划。
+  - 总 star：1654
+- [MyoHub/myosuite](https://github.com/MyoHub/myosuite)
+  - 说明：用 MuJoCo 搭一组肌肉骨骼模型的仿真任务，并包成 OpenAI gym 接口。README 写明面向生物力学、神经科学和康复一类研究。话题含 motor-control。
   - 领域：自动控制 Control
-  - 总 star：2173
-- [ShisatoYano/AutonomousVehicleControlBeginnersGuide](https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide)
-  - 说明：把自动驾驶里的定位、建图、规划和跟踪拆成可以单独跑的 Python 示例。README 写明这是给初学者看的示例代码，作者打算以后收成一本技术书，不是公开课清单或 awesome 合集。
+  - 总 star：1274
+- [SJTU-ViSYS/M2DGR](https://github.com/SJTU-ViSYS/M2DGR)
+  - 说明：SJTU-ViSYS 的地面机器人多模态、多场景 SLAM 数据集。搜索描述写明对应 RA-L 2021 与 ICRA 2022。
   - 领域：自动控制 Control
-  - 总 star：1928
+  - 总 star：1223
 
 ## 数据源状态
 
@@ -191,43 +186,39 @@ GitHub 仓库搜索对多个 `topic:` 做 OR 会返回 `total_count=0` 且不报
 
 同一仓库最多出现在 2 个领域节。跨领域时，最贴近的领域写完整条目，另一领域只留一行。
 
-说明里多出来的句子若搜索描述里没有，均来自对应仓库 README 正文，star 仍用搜索接口或 Trending 页面。补充读取的 README 均 HTTP 200：`beenuar/AiSOC`、`wangzan101/Mika`、`makerspet/oomwoo`、`prohurtz/BSB-SLAM`、`ASIG-X/RESPLE2`、`mozihe/z-localization`、`MRPT/mrpt`、`okalachev/flix`、`ShisatoYano/AutonomousVehicleControlBeginnersGuide`、`qybaihe/bla`、`rasbt/LLMs-from-scratch`、`Panniantong/Agent-Reach`、`xinnan-tech/xiaozhi-esp32-server`。这 13 次是仓库 README 接口，不计入上面 11 次搜索配额。`esp32-iphone-agent`、`esp-labs-web`、`hermes-gadget-sdk`、`esp32-thinks`、`zongzhu-bot`、`earshot`、`gemini-cli`、`taste-skill`、`esphome`、`flipperzero-firmware`、水位实验和 Sungrow 的说明没有超出搜索描述。`DIY-LiFePO4-UPS` 的 217 分钟、4.18 Ah 和 53.3 Wh 来自搜索描述，不是估算。
+说明里多出来的句子若搜索描述里没有，均来自对应仓库 README 正文，star 仍用搜索接口或 Trending 页面。补充读取的 README 均 HTTP 200：`wangzan101/Mika`、`mozihe/z-localization`、`ASIG-X/RESPLE2`、`prohurtz/BSB-SLAM`、`crosspoint-reader/crosspoint-reader`、`BruceDevices/firmware`、`davidrapan/ha-solarman`、`google-deepmind/mujoco_mpc`、`francescopace/espectre`、`ngxson/esp32-usb-to-airprint`、`fl4p/batmon-ha`、`SJTU-ViSYS/M2DGR`、`MyoHub/myosuite`、`symforce-org/symforce`、`qybaihe/bla`。这 15 次是仓库 README 接口，不计入上面 11 次搜索配额。`ha-solarman` 的 README 前段是徽章和文档导航，正文说明没有超出搜索描述和话题。`M2DGR` 的标题与搜索描述一致，没有另补传感器清单。`esp32-iphone-agent`、`esp-labs-web`、`esp32-thinks`、`zongzhu-bot`、`earshot`、`pytorch`、`vllm`、`crawl4ai`、`meshtastic/firmware`、`FastLED`、水位实验和 Sungrow 的说明没有超出搜索描述。`bla` 里「使用者行为不变」来自 README 首段。
 
 ### A. Trending
 
 - 来源：`GET https://github.com/trending?since=daily`
-- 结果：成功。解析 17 条，规则命中 1 条，清单类排除 0 条。页面没有 `X-RateLimit-Remaining`。
-- 命中：`beenuar/AiSOC`（总 star 6193，stars today 436；描述含 LLM-agent）。
-- 未命中（名称与强特征描述都没有领域词），按 stars today 降序，括号内为总 star、stars today：`pingdotgg/t3code`（37856，3100；描述为空）、`thedotmack/claude-mem`（109177，1527；描述里的 AI 是弱词）、`anomalyco/hex`（3222，1329；本地语音听写）、`Donchitos/Claude-Code-Game-Studios`（32214，970；描述是 “49 AI agents”，空格写法不等于 `ai-agents`）、`Renhuai123/ziwei-doushu`（13060，953）、`milind-soni/OpenMausBot`（10484，919）、`lightpanda-io/browser`（40074，827；描述里的 AI 是弱词）、`togg53192-cmd/jailbreaks`（12916，730；描述是一份 jailbreak 清单，没有领域词；脚本清单规则匹配的是 curated list / a list of / interview guide，这条未标成清单）、`shiyu-coder/Kronos`（45344，611；金融市场基础模型，没有 llm）、`patchy631/ai-engineering-hub`（40191，573；“LLMs” 不等于 llm，RAG 与 AI agent 是弱词）、`cjpais/Handy`（36506，383；离线语音转文字）、`public-apis/public-apis`（494548，298；免费 API 合集，没有领域词）、`FlashML-org/FreeToken`（15372，232；本地跑大模型，描述没有 llm 这个词）、`CopilotKit/OpenBot`（9498，178；描述里的 AI coworkers 是弱词）、`hyprwm/Hyprland`（39347，91）、`kornia/kornia`（11765，88；“Computer Vision” 是空格，不等于 `computer-vision`；Spatial AI 是弱词）。
+- 结果：成功。解析 15 条，规则命中 0 条，清单类排除 0 条。页面没有 `X-RateLimit-Remaining`。
+- 未命中（名称与强特征描述都没有领域词），按 stars today 降序，括号内为总 star、stars today：`pingdotgg/t3code`（41788，3216；描述为空）、`vercel-labs/agent-desktop`（9513，2243；描述是 “AI agents”，空格写法不等于 `ai-agents`；AI 是弱词）、`thedotmack/claude-mem`（110702，1799；描述里的 AI 是弱词）、`Donchitos/Claude-Code-Game-Studios`（33507，1380；描述是 “49 AI agents”，空格写法不等于 `ai-agents`）、`mattpocock/skills`（310193，968）、`D4Vinci/Scrapling`（92782，858）、`shiyu-coder/Kronos`（45997，855；金融市场基础模型，没有 llm）、`JustVugg/colibri`（46506，655；MoE 与 model，没有 llm）、`FlashML-org/FreeToken`（16020，654；本地跑大模型，描述没有 llm 这个词）、`hyprwm/Hyprland`（39897，508）、`paperclipai/paperclip`（110366，451；描述里的 agents 是弱词）、`kornia/kornia`（12117，412；“Computer Vision” 是空格，不等于 `computer-vision`；Spatial AI 是弱词）、`p-e-w/heretic`（38064，404；“language model” 不等于 llm）、`karpathy/nanochat`（59862，325；名称 nanochat 与描述里的 ChatGPT 都不含 llm）、`max-sixty/worktrunk`（10012，136；描述里的 AI agent 是弱词）。
 - 说明：页面有 stars today，没有 topics。未调用 `https://api.ossinsight.io/v1/trends/repos/`。
 
-### B. 领域新项目（`created:>=2026-10-03 stars:>2`，`sort=stars`，`per_page=5`，`page=1`）
+### B. 领域新项目（`created:>=2026-10-04 stars:>2`，`sort=stars`，`per_page=5`，`page=1`）
 
-- 嵌入式：成功。查询 `(topic:embedded OR esp32 OR stm32 OR zephyr OR freertos) created:>=2026-10-03 stars:>2`。`total_count=435`，返回 5，规则保留 5，排除清单 0。剩余配额 9。这 5 条都写入正文：`onehumanbeing/esp32-iphone-agent`（4197）、`agharsallah/esp-labs-web`（628）、`Adolanium/hermes-gadget-sdk`（458）、`raullenchai/esp32-thinks`（260）、`Liu-zhongxian/zongzhu-bot`（240）。`esp32-iphone-agent` 和 `esp32-thinks` 同时话题含 `llm`，完整条目在本节，AI 一节各一行带过。`zongzhu-bot` 话题含 `grok` 与 `voice-assistant`，没有 `llm`，不跨到 AI。`esp-labs-web` 话题含 `education`，描述是 ESP32-S3 实验台网页，不是公开课清单，正文保留。`hermes-gadget-sdk` 话题没有 `llm`，不跨到 AI。
-- AI：成功。查询 `(topic:llm OR pytorch OR transformer OR diffusion OR ai-agents) created:>=2026-10-03 stars:>2`。`total_count=2475`，返回 5，规则保留 3，未命中 2，排除清单 0。剩余配额 9。正文保留 `wangzan101/Mika`（3794）、`Leonxlnx/earshot`（3442）、`qybaihe/bla`（1821）。另有 2 条跨领域一行：`esp32-iphone-agent`（4197）、`esp32-thinks`（260），来自嵌入式检索。这两条话题含 `llm`，但没有出现在本查询返回的前 5 里。
-  - 未命中：`openfilm/openfilm`（总 star 4091；描述里的 AI video agent 是弱词）、`CopilotKit/OpenDuet`（总 star 1789；描述里的 AI agent 是弱词）。名称和 topics 都没有领域关键词。`openfilm` 夹在 `Mika` 与 `earshot` 之间，所以本页按总 star 不是连续的 3 个命中仓库。
-- 功率器件：成功。查询 `(topic:power-electronics OR igbt OR sic OR mosfet OR wide-bandgap) created:>=2026-10-03 stars:>2`。`total_count=4`，返回 4，规则保留 2，未命中 2。剩余配额 9。本查询只有 4 条满足条件，所以不足 5 条。规则保留的 2 条里，1 条撞名剔除，1 条更贴近自动控制，本节只留一行。
+- 嵌入式：成功。查询 `(topic:embedded OR esp32 OR stm32 OR zephyr OR freertos) created:>=2026-10-04 stars:>2`。`total_count=426`，返回 5，规则保留 5，排除清单 0。剩余配额 9。这 5 条都写入正文：`onehumanbeing/esp32-iphone-agent`（4236）、`agharsallah/esp-labs-web`（635）、`raullenchai/esp32-thinks`（261）、`Liu-zhongxian/zongzhu-bot`（245）、`ngxson/esp32-usb-to-airprint`（235）。`esp32-iphone-agent` 和 `esp32-thinks` 同时话题含 `llm`，完整条目在本节，AI 一节各一行带过。`zongzhu-bot` 话题含 `grok` 与 `voice-assistant`，没有 `llm`，不跨到 AI。`esp-labs-web` 话题含 `education`，描述是 ESP32-S3 实验台网页，不是公开课清单，正文保留。`esp32-usb-to-airprint` 只有名称和描述里的 esp32，接口 `created_at` 为 `2026-10-26T16:18:54Z`，北京时间是 2026-10-27 00:18。
+- AI：成功。查询 `(topic:llm OR pytorch OR transformer OR diffusion OR ai-agents) created:>=2026-10-04 stars:>2`。`total_count=2509`，返回 5，规则保留 3，未命中 2，排除清单 0。剩余配额 8。正文保留 `wangzan101/Mika`（5255）、`Leonxlnx/earshot`（3553）、`qybaihe/bla`（1981）。另有 2 条跨领域一行：`esp32-iphone-agent`（4236）、`esp32-thinks`（261），来自嵌入式检索。这两条话题含 `llm`，但没有出现在本查询返回的前 5 里。
+  - 未命中：`openfilm/openfilm`（总 star 4270；描述里的 AI video agent 是弱词）、`CopilotKit/OpenDuet`（总 star 1856；描述里的 AI agent 是弱词）。名称和 topics 都没有领域关键词。`openfilm` 夹在 `Mika` 与 `earshot` 之间，所以本页按总 star 不是连续的 3 个命中仓库。
+- 功率器件：成功。查询 `(topic:power-electronics OR igbt OR sic OR mosfet OR wide-bandgap) created:>=2026-10-04 stars:>2`。`total_count=4`，返回 4，规则保留 2，未命中 2。剩余配额 8。本查询只有 4 条满足条件，所以不足 5 条。规则保留的 2 条里，1 条撞名剔除，1 条更贴近自动控制，本节只留一行。
   - `marozols/SIC-existence`（总 star 10）：名称和描述含 SIC，内容是 Lean 对「任意维度 SIC 存在性」的形式化证明，与碳化硅器件无关，正文不收。
   - `Samarth030312/arduino-water-level-control-lab`（总 star 8）：描述里的 MOSFET 是直流泵的开关，话题含 `control-systems` 与 `pid-control`。完整条目在自动控制，本节一行带过。
   - 名称和 topics 未命中：`aswin-code513/First-Sick-First-Served`（3）、`XMMO-zzy/Sichuan-College-Upgrade-Progress-Assessment-Platform`（3）。`First-Sick` 与 `Sichuan` 按词边界不等于 `sic`。
-- 电力电子电源：成功。查询 `(topic:mppt OR bms OR inverter OR dc-dc OR llc) created:>=2026-10-03 stars:>2`。`total_count=65`，返回 5，规则保留 0。剩余配额 9。正文写「本日无新项目」。
-  - 名称、话题和描述都没有 `mppt`、`bms`、`inverter`、`dc-dc`、`llc`：`SpawnEmancipate/vxxzgfby`（259；描述把 Acrobat Pro DC 当成可分发的安装包，DC 不等于 `dc-dc`）、`CompaLarios18/MH4UltimateDC`（87）、`two-delta/DCOCO`（56；描述为空）、`Lida-V/3DCharaMakeSkills-Lida`（55）、`leftamber/CEXTrader-Grid-Dca-Automation-Bot-Platform`（52；描述里的 DCA 不等于 `dc-dc`）。名称里能看到 DC 的是前两条和 `DCOCO`。`3DCharaMakeSkills-Lida` 的名称和描述里没有这些词，命中点不在接口返回的名称、话题和描述中。分类按词边界没有计入。
-- 自动控制：成功。查询 `(topic:ros2 OR slam OR motor-control OR flight-controller OR mpc) created:>=2026-10-03 stars:>2`。`total_count=65`，返回 5，规则保留 4，未命中 1。剩余配额 7。正文保留 `mozihe/z-localization`（116）、`ASIG-X/RESPLE2`（38）、`prohurtz/BSB-SLAM`（36）。另有 1 条完整条目来自功率器件检索：`arduino-water-level-control-lab`（8），因为水位控制比 MOSFET 开关更贴近本领域。
+- 电力电子电源：成功。查询 `(topic:mppt OR bms OR inverter OR dc-dc OR llc) created:>=2026-10-04 stars:>2`。`total_count=67`，返回 5，规则保留 0。剩余配额 6。正文写「本日无新项目」。
+  - 名称和描述里没有 `mppt`、`bms`、`inverter`、`dc-dc`、`llc`：`SteamDerrick/mwanrytl`（274；描述把 Acrobat Pro DC 当成可分发的安装包，DC 不等于 `dc-dc`）、`CompaLarios18/MH4UltimateDC`（90）、`Lida-V/3DCharaMakeSkills-Lida`（56）、`two-delta/DCOCO`（56；描述为空）、`leftamber/grid-dca-bot`（51；描述里的 DCA 不等于 `dc-dc`）。名称里能看到 DC 的是 `MH4UltimateDC` 和 `DCOCO`。`3DCharaMakeSkills-Lida` 的名称和描述里没有这些词，命中点不在接口返回的名称、话题和描述中。分类按词边界没有计入。
+- 自动控制：成功。查询 `(topic:ros2 OR slam OR motor-control OR flight-controller OR mpc) created:>=2026-10-04 stars:>2`。`total_count=66`，返回 5，规则保留 4，未命中 1。剩余配额 4。正文保留 `mozihe/z-localization`（118）、`ASIG-X/RESPLE2`（44）、`prohurtz/BSB-SLAM`（37）。另有 1 条完整条目来自功率器件检索：`arduino-water-level-control-lab`（8），因为水位控制比 MOSFET 开关更贴近本领域。
   - 清单类剔除：`woolimi/robotics-roadmap`（总 star 85）。话题含 `ros2` 与 `slam`，描述写明是机器人开发自学课程地图和面试型测验，属课程清单，不进正文。脚本的清单规则没有命中这条韩文描述，此处人工剔除。
-  - 名称和 topics 未命中：`lbgos/rift-s-linux`（总 star 35）。描述里的 “Basalt SLAM” 是空格写法，不等于 `slam`。它排在本页最后，所以前面 4 条规则命中在星数上是连续的，其中 `robotics-roadmap` 再被人工剔除。
+  - 名称和 topics 未命中：`lbgos/rift-s-linux`（总 star 38）。描述里的 “Basalt SLAM” 是空格写法，不等于 `slam`。它排在 `RESPLE2` 与 `BSB-SLAM` 之间。
 
-### C. 领域常青（`pushed:>=2026-10-26 stars:>3`，`sort=stars`，`per_page=5`，`page=3`）
+### C. 领域常青（`pushed:>=2026-10-27 stars:>3`，`sort=stars`，`per_page=5`，`page=4`）
 
-- 嵌入式：成功。查询 `(topic:embedded OR esp32 OR stm32 OR zephyr OR freertos) pushed:>=2026-10-26 stars:>3`。`total_count=1227`，返回 5，规则保留 5，清单类排除 0。剩余配额 8。正文完整条目 4 条来自本查询：`flipperdevices/flipperzero-firmware`（16817）、`justcallmekoko/ESP32Marauder`（12968）、`esphome/esphome`（12001）、`xinnan-tech/xiaozhi-esp32-server`（11116）。`makerspet/oomwoo`（12927）话题同时含 `esp32`、`ros2`、`slam`，扫地和定位更贴近自动控制，完整条目在自动控制，本节一行。`okalachev/flix`（2426）来自自动控制检索，话题含 `esp32`，本节一行。`mkaiser/Sungrow-SHx-Inverter-Modbus-Home-Assistant`（709）来自电力电子检索，话题含 `modbus`，本节一行。`xiaozhi-esp32-server` 的 README 提到 MCP 接入点，搜索话题是 `mcp-server`，不是 AI 关键词，不跨到 AI。
-- AI：成功。查询 `(topic:llm OR pytorch OR transformer OR diffusion OR ai-agents) pushed:>=2026-10-26 stars:>3`。`total_count=8933`，返回 5，规则保留 4，未命中 1，排除清单 0。剩余配额 3。正文保留 `google-gemini/gemini-cli`（108655；话题 `ai-agents`）、`Leonxlnx/taste-skill`（107746；话题 `ai-agents`）、`rasbt/LLMs-from-scratch`（107650；话题 `llm` 与 `pytorch`，描述含 LLM）、`Panniantong/Agent-Reach`（107593；话题 `llm-tools` 按词边界计入 llm）。`MRPT/mrpt`（2173）来自自动控制检索，话题含 `computer-vision`，本节一行。
-  - 未命中：`nexu-io/open-design`（总 star 105339；描述里的 AI Design Agent 是弱词）。名称和 topics 都没有领域关键词。它排在本页最后，所以前面 4 条按总 star 是连续的。
-- 功率器件：成功。查询 `(topic:power-electronics OR igbt OR sic OR mosfet OR wide-bandgap) pushed:>=2026-10-26 stars:>3`。`total_count=25`，返回 5，规则保留 2，未命中 2。剩余配额 9。`page=3`、`per_page=5`，本页返回满 5 条，对应总结果里的第 11 到第 15 条，不是失败。规则保留的 2 条经人工处理后，没有以功率器件为最贴近领域的完整条目。
-  - `epilys/sic`（总 star 27）：标签聚合的链接社区，名称撞上 `sic`，与碳化硅器件无关，正文不收。
-  - `wkcollis1-eng/DIY-LiFePO4-UPS`（总 star 15）：话题含 `mosfet` 与 `power-supply`。备用电源比一只 MOSFET 更贴近电力电子，完整条目在电力电子，本节一行。
-  - `JacobJandon/Sicry`（总 star 19）：搜索把名称里的 Sicry 当成 `sic` 的子串召回。分类按词边界不等于 `sic`。话题含 `llm` 与 `ai-agents`，但不在 AI 常青前 5，不跨节。
-  - 名称和 topics 未命中：`ducroo/SICTIC-AI`（14；`SICTIC` 不等于 `sic`）、`linuxserver/docker-sickgear`（12；描述为空，`sickgear` 不等于 `sic`）。
-- 电力电子电源：成功。查询 `(topic:mppt OR bms OR inverter OR dc-dc OR llc) pushed:>=2026-10-26 stars:>3`。`total_count=402`，返回 5，规则保留 1，未命中 4。剩余配额 9。正文完整条目为 `mkaiser/Sungrow-SHx-Inverter-Modbus-Home-Assistant`（709）。`DIY-LiFePO4-UPS`（15）来自功率器件检索，话题含 `power-supply`，完整条目在本节。Sungrow 同时话题含 `modbus`，嵌入式一节一行。本页前 4 条都是 DC 撞名，所以 Sungrow 不是本页星数最高的返回项。
-  - 名称和 topics 未命中：`dcnetio/web-dc-api`（817）、`NVIDIA/DCGM`（811；数据中心 GPU 管理）、`dcs-liberation/dcs_liberation`（801）、`decred/dcrd`（775）。名称里的 DC 不等于 `dc-dc`。
-- 自动控制：成功。查询 `(topic:ros2 OR slam OR motor-control OR flight-controller OR mpc) pushed:>=2026-10-26 stars:>3`。`total_count=215`，返回 5，规则保留 3，未命中 1，清单类排除 1。剩余配额 8。正文保留 `okalachev/flix`（2426）、`MRPT/mrpt`（2173）、`ShisatoYano/AutonomousVehicleControlBeginnersGuide`（1928）。`makerspet/oomwoo`（12927）来自嵌入式检索，话题含 `ros2` 与 `slam`，完整条目在本节。`flix` 同时话题含 `esp32`，嵌入式一节一行。`MRPT` 同时话题含 `computer-vision`，AI 一节一行。`awesome-NeRF-and-3DGS-SLAM` 夹在 `mrpt` 与自动驾驶示例之间，所以本页按总 star 不是连续的 3 个命中仓库。
-  - 清单类剔除：`3D-Vision-World/awesome-NeRF-and-3DGS-SLAM`（总 star 2157）。名称含 awesome，话题含 `slam`，脚本已标成清单，正文不收。
-  - 名称和 topics 未命中：`nvidia-isaac/cuVSLAM`（总 star 1888）。名称 `cuVSLAM` 按词边界不等于 `slam`；描述里的 SLAM 是弱词，不在强特征词表里，正文不收。
+- 嵌入式：成功。查询 `(topic:embedded OR esp32 OR stm32 OR zephyr OR freertos) pushed:>=2026-10-27 stars:>3`。`total_count=1228`，返回 5，规则保留 5，清单类排除 0。剩余配额 9。`page=4`、`per_page=5`，本页是总结果里的第 16 到第 20 条。正文完整条目 5 条都来自本查询：`francescopace/espectre`（9728）、`crosspoint-reader/crosspoint-reader`（8623）、`meshtastic/firmware`（8516）、`FastLED/FastLED`（7523）、`BruceDevices/firmware`（7137）。`mkaiser/Sungrow-SHx-Inverter-Modbus-Home-Assistant`（709）与 `davidrapan/ha-solarman`（541）来自电力电子检索，话题含 `modbus`，本节各一行。`espectre` 的话题是 `esp-32`，不等于 `esp32`，描述里的 ESP32 计入。
+- AI：成功。查询 `(topic:llm OR pytorch OR transformer OR diffusion OR ai-agents) pushed:>=2026-10-27 stars:>3`。`total_count=8935`，返回 5，规则保留 3，未命中 2，排除清单 0。剩余配额 9。正文保留 `pytorch/pytorch`（105099；仓库名 pytorch）、`vllm-project/vllm`（96163；话题 `llm`、`pytorch`、`transformer`）、`unclecode/crawl4ai`（86790；话题 `llm` 与 `ai-agents`）。`symforce-org/symforce`（1654）来自自动控制检索，话题含 `computer-vision`，本节一行。
+  - 未命中：`pbakaus/impeccable`（总 star 100432；描述里的 coding agent 与 AI slop 是弱词）、`lobehub/lobehub`（总 star 83717；描述里的 AI team 是弱词）。名称和 topics 都没有领域关键词。`impeccable` 夹在 `pytorch` 与 `vllm` 之间，`lobehub` 排在本页最后，所以本页按总 star 不是连续的 3 个命中仓库。
+- 功率器件：成功。查询 `(topic:power-electronics OR igbt OR sic OR mosfet OR wide-bandgap) pushed:>=2026-10-27 stars:>3`。`total_count=24`，返回 5，规则保留 1，未命中 4。剩余配额 7。`page=4`、`per_page=5`，本页返回满 5 条，对应总结果里的第 16 到第 20 条，不是失败。规则保留的 1 条经人工剔除后，本节没有完整条目。
+  - `Oire/sic`（总 star 5）：简单图片转换器，名称撞上 `sic`，与碳化硅器件无关，正文不收。
+  - 名称和 topics 未命中：`SicerBrito/SicerBrito`（6；GitHub 个人主页配置，`Sicer` 不等于 `sic`）、`rvandewater/SICdb_MEDS`（6；萨尔茨堡重症监护数据库，`SICdb` 不等于 `sic`）、`anzeabram/SiCS`（5；斯洛文尼亚洞穴测量，`SiCS` 不等于 `sic`）、`tbermen/SiCoPR`（5；IEEE 802.3 信道工作裕量的 Python 移植，`SiCo` 不等于 `sic`）。
+- 电力电子电源：成功。查询 `(topic:mppt OR bms OR inverter OR dc-dc OR llc) pushed:>=2026-10-27 stars:>3`。`total_count=393`，返回 5，规则保留 3，未命中 2。剩余配额 9。正文完整条目为 `mkaiser/Sungrow-SHx-Inverter-Modbus-Home-Assistant`（709）、`davidrapan/ha-solarman`（541）、`fl4p/batmon-ha`（531）。Sungrow 与 ha-solarman 同时话题含 `modbus`，嵌入式一节各一行。`batmon-ha` 的 README 写明不另加 ESP32，搜索话题也没有 esp32，不跨到嵌入式。本页第 2 条和第 5 条是 DC 撞名，所以 3 条正文不是本页星数连续的前 3。
+  - 名称和 topics 未命中：`hackthedev/dcts-shipping`（640）、`dcm4che/dcm4chee-arc-light`（507；DICOM 归档）。名称里的 DC 不等于 `dc-dc`。
+- 自动控制：成功。查询 `(topic:ros2 OR slam OR motor-control OR flight-controller OR mpc) pushed:>=2026-10-27 stars:>3`。`total_count=216`，返回 5，规则保留 5，未命中 0，脚本清单类排除 0。剩余配额 9。正文保留 `google-deepmind/mujoco_mpc`（1758）、`symforce-org/symforce`（1654）、`MyoHub/myosuite`（1274）、`SJTU-ViSYS/M2DGR`（1223）。`symforce` 同时话题含 `computer-vision`，AI 一节一行。`mujoco_mpc` 的 `motor-control` 只归自动控制，不归电力电子（电力电子关键词是 `motor-drive`）。`cv-arxiv-daily` 夹在 `symforce` 与 `myosuite` 之间，所以本页按总 star 不是连续的 4 个命中仓库。
+  - 清单类剔除：`Vincentqyw/cv-arxiv-daily`（总 star 1512）。话题含 `slam`，描述写明用 GitHub Actions 每天自动更新计算机视觉论文，属论文清单，不进正文。脚本的清单规则没有命中这条描述，此处人工剔除。
